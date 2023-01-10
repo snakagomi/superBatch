@@ -4,5 +4,16 @@
     "**/bower_components": true,
     "**/.sfdx": true
   },
-  "salesforcedx-vscode-core.show-cli-success-msg": false
+  "salesforcedx-vscode-core.show-cli-success-msg": false,
+  "cSpell.words": [
+    "BOATMC",
+    "boatselect",
+    "datatable",
+    "fivestar",
+    "onboatselect",
+    "oncreatereview",
+    "onsave",
+    "ratingchange",
+    "tabset"
+  ]
 }

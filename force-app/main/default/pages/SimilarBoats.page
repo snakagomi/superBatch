@@ -2,7 +2,7 @@
     <apex:slds />
     <apex:pageBlock >
         <apex:facet name="header">
-            <apex:form >  
+            <apex:form >
                 <table>
                     <tbody>
                         <tr>
@@ -33,8 +33,8 @@
             <apex:pageBlockSectionItem >
                 <apex:outputLabel value="Boat Picture" for="boatPic"/>
                 <apex:outputLink value="/{!boat.id}">
-                  <apex:image value="{!boat.Picture__c}" style="max-width: 350px;" alt="{!boat.Name}"/>
-              </apex:outputLink>
+                    <apex:image value="{!boat.Picture__c}" style="max-width: 350px;" alt="{!boat.Name}"/>
+                </apex:outputLink>
             </apex:pageBlockSectionItem>
         </apex:pageBlockSection>
     </apex:pageBlock>
